@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { fetchRecipeData } from './assets/ts/api';
 import { Recipes, RecipesJSON } from './types/RecipeAPI';
 import { handleAsyncAwaitErrors } from './assets/ts/tryCatch';
+import Header from './components/Header/Header';
 
 const App = () => {
   const [recipes, setRecipes] = useState<Recipes>([]);
@@ -20,7 +21,11 @@ const App = () => {
     setData();
   }, []);
 
-  return <div className="container"></div>;
+  return (
+    <div className="container">
+      <Header />
+    </div>
+  );
 };
 
 export default App;

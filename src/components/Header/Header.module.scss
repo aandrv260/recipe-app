@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.4rem 6.4rem;
+  background-color: #e67e22;
+
+  &__btns {
+  }
+
+  &__icon {
+    height: 2.2rem;
+    width: 2.2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    &--plus:hover {
+    }
+
+    &--bookmark {
+    }
+
+    &:not(:last-child) {
+      margin-right: 3.2rem;
+    }
+  }
+}
