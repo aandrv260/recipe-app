@@ -19,7 +19,8 @@ const App = () => {
 
     setData();
   }, []);
-  return <div>Home Page</div>;
+
+  return <div className="container"></div>;
 };
 
 export default App;
