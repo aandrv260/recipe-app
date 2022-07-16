@@ -1,0 +1,14 @@
+.link {
+  &:link,
+  &:visited {
+    display: inline-block;
+    color: #333;
+    border-bottom: 1px solid currentColor;
+    transition: all 0.3s;
+  }
+
+  &:hover,
+  &:active {
+    border-color: transparent;
+  }
+}

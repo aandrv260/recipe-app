@@ -3,6 +3,7 @@ import { fetchRecipeData } from './assets/ts/api';
 import { Recipes, RecipesJSON } from './types/RecipeAPI';
 import { handleAsyncAwaitErrors } from './assets/ts/tryCatch';
 import Header from './components/Header/Header';
+import Link from './components/Link/Link';
 
 const App = () => {
   const [recipes, setRecipes] = useState<Recipes>([]);
@@ -24,6 +25,7 @@ const App = () => {
   return (
     <div className="container">
       <Header />
+      <Link href="#">Link &rarr;</Link>
     </div>
   );
 };
