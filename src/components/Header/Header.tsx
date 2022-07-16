@@ -8,7 +8,7 @@ import {
   ListCheck,
 } from 'react-bootstrap-icons';
 import React from 'react';
-import { useState } from 'react';
+import Search from '../Search/Search';
 
 const HeaderIcons = () => {
   return (
@@ -47,7 +47,7 @@ const Header = () => {
       <h1 className="heading--primary">Recipify</h1>
 
       {/* Search form placeholder */}
-      <form></form>
+      <Search />
 
       {/* Icons */}
       <HeaderIcons />

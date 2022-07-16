@@ -1,0 +1,12 @@
+.btn {
+  border: 1px solid transparent;
+
+  &--full {
+    background-color: #fff;
+  }
+
+  &--outline {
+    background-color: transparent;
+    border-color: #fff;
+  }
+}
