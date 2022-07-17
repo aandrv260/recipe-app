@@ -1,44 +1,15 @@
-import { addCSSClassName } from '../../assets/ts/generalFunctions';
-import scss from './Header.module.scss';
-import {
-  Bookmark,
-  BookmarkFill,
-  PlusSquare,
-  PlusSquareFill,
-  ListCheck,
-} from 'react-bootstrap-icons';
+// Package
 import React from 'react';
+
+// Components
 import Search from '../Search/Search';
+import HeaderIcons from './HeaderIcons';
 
-const HeaderIcons = () => {
-  return (
-    <div className={addCSSClassName(scss, 'header__icons')}>
-      <PlusSquare
-        className={addCSSClassName(
-          scss,
-          'header__icon',
-          addCSSClassName(scss, 'header__icon--plus')
-        )}
-      />
+// Functions
+import { addCSSClassName } from '../../assets/ts/generalFunctions';
 
-      <Bookmark
-        className={addCSSClassName(
-          scss,
-          'header__icon',
-          addCSSClassName(scss, 'header__icon--bookmark')
-        )}
-      />
-
-      <ListCheck
-        className={addCSSClassName(
-          scss,
-          'header__icon',
-          addCSSClassName(scss, 'header__icon--list')
-        )}
-      />
-    </div>
-  );
-};
+// Styles
+import scss from './Header.module.scss';
 
 const Header = () => {
   return (
