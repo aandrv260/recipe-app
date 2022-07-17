@@ -101,10 +101,11 @@
 }
 
 .container {
-  width: 90%;
-  height: 67rem;
+  width: 80%;
+  height: 65rem;
   overflow-y: hidden;
   background-color: #fff;
   color: #333;
-  box-shadow: 0 2.4rem 8rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2.4rem 8rem rgba(0, 0, 0, 0.4);
+  border-radius: var(--border-radius-large);
 }

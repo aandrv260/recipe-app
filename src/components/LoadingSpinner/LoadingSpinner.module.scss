@@ -1,8 +1,7 @@
 .spinner {
-  //   border: 5px solid #e76e22;
   border: 8px solid #eee; /* Light grey */
-  border-top: 8px solid #e76e22;
-  border-bottom: 8px solid #e76e22;
+  border-top: 8px solid var(--color-accent);
+  border-bottom: 8px solid var(--color-accent);
   border-radius: 50%;
   background-color: #fff;
   height: 5rem;

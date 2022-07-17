@@ -1,3 +1,5 @@
+// Base styles
+
 *,
 *::before,
 *::after {
@@ -11,13 +13,44 @@ html {
   box-sizing: border-box;
 }
 
+:root {
+  // Colors
+  --color-main: ##2fbe8a;
+  --color-accent: #2f91bc;
+
+  --color-main-tint-1: #eaf9f3;
+  --color-main-tint-2: #d5f2e8;
+  --color-main-tint-3: #ace5d0;
+  --color-main-tint-4: #82d8b9;
+  --color-main-tint-5: #59cba1;
+
+  --color-main-shade-1: #09261c;
+  --color-main-shade-2: #134c37;
+  --color-main-shade-3: #185f45;
+  --color-main-shade-4: #218561;
+  --color-main-shade-5: #26986e;
+
+  --color-accent-tint-1: #d5e9f2;
+  --color-accent-tint-2: #acd3e4;
+  --color-accent-tint-3: #82bdd7;
+  --color-accent-tint-4: #6db2d0;
+  --color-accent-tint-5: #59a7c9;
+
+  --border-radius-small: 2px;
+  --border-radius-normal: 6px;
+  --border-radius-large: 20px;
+}
+
 body {
-  height: 100vh;
+  min-height: 100vh;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.6;
-  background-color: #65c15966;
+  background-image: linear-gradient(to right bottom, #a1ecd1, #2f92bc44);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow-x: hidden;
 }
 
@@ -26,7 +59,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100%;
-  padding: 2.4rem 0;
+  padding: 3.2rem 0;
 }
 
 ul {

@@ -1,14 +1,17 @@
 .recipe {
   padding: 2rem;
+  border-radius: var(--border-radius-small);
   transition: all 0.3s;
 
   &:hover {
-    background-color: #e67d2238;
+    background-color: var(--color-accent-tint-1);
+    transform: scale(1.2);
   }
 
   &__img {
     width: 100%;
     margin-bottom: 0.6rem;
+    border-radius: var(--border-radius-normal);
   }
 
   &__heading {
